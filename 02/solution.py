@@ -13,7 +13,6 @@ def part1(data: list[str]) -> int | str:
     for r in ranges:
         for i in range(r[0], r[1]+1):
             if is_invalid(i):
-                print(i)
                 s += i
     return s
 
